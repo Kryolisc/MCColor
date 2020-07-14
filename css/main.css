@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Montserrat Light Italic'), local('Montserrat-LightItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZYgzD-w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Italic'), local('Montserrat-Italic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm459Wxhzg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZOg3D-w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZFgrD-w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Montserrat Bold Italic'), local('Montserrat-BoldItalic'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUPjIg1_i6t8kCHKm459WxZcgvD-w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD7g4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm45xW4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC7g4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_bZF7g4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE7g4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic Coding';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('NanumGothicCoding'), url(https://fonts.gstatic.com/s/nanumgothiccoding/v14/8QIVdjzHisX_8vv59_xMxtPFW4IXROwsy6Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Minecraftia';
+  src: url('https://media.craftkekser.de/api/font/minecraftia.ttf');
+}
+* {
+  font-family: 'Montserrat';
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #bdc3c7;
+  height: 100vh;
+}
+header {
+  background: linear-gradient(135deg, rgba(44, 62, 80, 0) 49%, rgba(18, 76, 116, 0.356) 81%, rgba(44, 62, 80, 0) 92%), linear-gradient(0deg, #2c3e50, #2c3e50);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);
+  height: 4rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+header .title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2ecc71;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.description {
+  height: 4rem;
+  width: 80%;
+  margin-top: 2rem;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  background: #dcdde1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+code {
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: #5f27cd;
+}
+main {
+  height: calc(100% - 10rem);
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+main section {
+  height: 70%;
+  width: 40%;
+  margin: 2rem;
+  margin-top: 1rem;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+main .input {
+  background: #ecf0f1;
+}
+main .input textarea {
+  padding: 1rem;
+  background: transparent;
+  border: none;
+  width: calc(100% - 2rem);
+  height: calc(100% - 2rem);
+  font-family: monospace;
+  font-size: 1.4rem;
+}
+main .input textarea:focus {
+  outline: 0;
+}
+main .output {
+  background: url('https://media.craftkekser.de/mc/background/1.png');
+}
+main .output div {
+  padding: 1rem;
+  backdrop-filter: brightness(0.8) blur(3px);
+  height: calc(100% - 2rem);
+  word-wrap: break-word;
+  overflow: auto;
+}
+main .output * {
+  font-size: 1rem;
+  font-family: 'Minecraftia';
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  color: #FFF;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #bdc3c7;
+}
+::-webkit-scrollbar-thumb {
+  background: #3498db;
+}
