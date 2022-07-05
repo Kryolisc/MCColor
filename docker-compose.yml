@@ -1,0 +1,10 @@
+version: "3.0"
+
+services:
+  web-mccolor:
+    image: php:apache
+    ports:
+    - "32032:80"
+    volumes:
+    - "./:/var/www/html"
+    restart: always
